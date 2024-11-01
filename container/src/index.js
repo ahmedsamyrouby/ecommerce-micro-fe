@@ -1,1 +1,1 @@
-console.log("Hello from Container");
+import("./bootstrap");
