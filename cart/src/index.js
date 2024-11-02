@@ -1,7 +1,7 @@
-const cartItemCount = Math.round(Math.random() * 10);
+import faker from "faker";
 
 const cartItemsPreviewText =
-  "You have " + cartItemCount + " items in your cart";
+  "You have " + faker.random.number() + " items in your cart";
 
 const cartItemsPreview = document.createElement("div");
 
